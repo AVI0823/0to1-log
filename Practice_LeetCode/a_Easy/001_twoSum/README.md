@@ -5,16 +5,16 @@ You can return the answer in any order.
 
 ### Example 1:
 - Input: nums = [2,7,11,15], target = 9
->>> [0,1]
+- Output: [0,1]
 - Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 ### Example 2:
 - Input: nums = [3,2,4], target = 6
->>> [1,2]
+- Output: [1,2]
 
 ### Example 3:
 - Input: nums = [3,3], target = 6
->>> [0,1]
+- Output: [0,1]
 
 ### Constraints:
 - 2 <= nums.length <= 104
@@ -24,10 +24,10 @@ You can return the answer in any order.
 
 ---
 # Solutions
----
+
 ## Solution 1 (5.5/10)
 - Runtime
-  -   4332ms : beats 5.00%
+  - 4332ms : beats 5.00%
 - Memory
--   18.54mb : Beats 71.24%
+  - 18.54mb : Beats 71.24%
 Needs Optimization
