@@ -1,13 +1,13 @@
 
 ---
-# $$ \texttt{ C language } $$
+#   \texttt{ C language }  
 Date : 10/07/2025 to _End DATE_
 Status : In progress
 Resource :  
 
 ---
-# $$ \texttt{———— Chapter 0 ————} $$
-$$\texttt{Introduction}$$
+#   \texttt{———— Chapter 0 ————}  
+ \texttt{Introduction} 
 
 ---
 ### 1. Example code :
@@ -132,8 +132,8 @@ int main(){
 ```
 
 ---
-# $$ \texttt{—— Chapter 1 ——} $$
-$$\texttt{Variables \& Constants}$$
+#   \texttt{—— Chapter 1 ——}  
+ \texttt{Variables \& Constants} 
 
 ---
 ## 1. Variables
@@ -334,7 +334,7 @@ int main() {
 - scanf("...", &a) : means -> It tells the scanf function where to store the input (in this case, store in a)
 
 ---
-## $$ \texttt{———— Chapter 1 - Practice Set ————} $$
+##   \texttt{———— Chapter 1 - Practice Set ————}  
 ---
 
 ### a) Write a C program to calculate area of a rectangle :
@@ -474,8 +474,8 @@ int main(){
 ```
 
 ---
-# $$ \texttt{———— Chapter 2 ————} $$
-$$\texttt{Instructions \& Operations}$$
+#   \texttt{———— Chapter 2 ————}  
+ \texttt{Instructions \& Operations} 
 
 ---
 ## 1. Instructions
@@ -619,7 +619,7 @@ Determine the flow of control in a program four types f=of control instructions 
 
 
 ---
-## $$ \texttt{———— Chapter 2 - Practice Set ————} $$
+##   \texttt{———— Chapter 2 - Practice Set ————}  
 ---
 ### a) Which of the following is invalid in C?
 	a) int n = 1; int b = a;
@@ -681,8 +681,8 @@ int main(){
 -> Ans) ==Float==, output : `4.0000`
 
 ---
-# $$ \texttt{———— Chapter 3 ————} $$
-$$\texttt{Conditional Instructions}$$
+#   \texttt{———— Chapter 3 ————}  
+ \texttt{Conditional Instructions} 
 
 ---
 Decision making in C :
@@ -1022,7 +1022,7 @@ void checking_if(){
 }
 ```
 ---
-## $$ \texttt{———— Chapter 3 - Practice Set ————} $$
+##   \texttt{———— Chapter 3 - Practice Set ————}  
 ---
 ### a) What will be the output of the following code ?
 ```
@@ -1199,8 +1199,8 @@ int main(){
 }
 ```
 ---
-# $$ \texttt{———— Chapter 4 ————} $$
-$$\texttt{Loop Control Instruction}$$
+#   \texttt{———— Chapter 4 ————}  
+ \texttt{Loop Control Instruction} 
 
 ---
 ## 1. Loops
@@ -1488,7 +1488,7 @@ int main(){
 ```
 
 ---
-## $$ \texttt{———— Chapter 4 - Practice Set ————} $$
+##   \texttt{———— Chapter 4 - Practice Set ————}  
 ---
 ### a) Write a program to write Multiplication table of a given number
 
@@ -1748,8 +1748,8 @@ int main(){
 ```
 
 ---
-# $$ \texttt{———— Project 1 ————} $$
-$$\texttt{Number Guessing Game}$$
+#   \texttt{———— Project 1 ————}  
+ \texttt{Number Guessing Game} 
 
 ---
 ## We need a program that generates a random number and asks the user to guess it, if the user's guess is higher then the actual number the program displays "Lower number please", and if the user's guess is lower then the actual number the program displays "Higher number please"
@@ -1825,8 +1825,8 @@ int main(){
 ```
 
 ---
-# $$ \texttt{———— Chapter 5 ————} $$
-$$\texttt{Functions \& Recursion}$$
+#   \texttt{———— Chapter 5 ————}  
+ \texttt{Functions \& Recursion} 
 
 ---
 ## 1) What is a Function?
@@ -1951,7 +1951,7 @@ int main(){
 ```
 
 ---
-## $$ \texttt{———— Chapter 5 - Practice Set ————} $$
+##   \texttt{———— Chapter 5 - Practice Set ————}  
 ---
 ### a) Write a program using function to find average of three numbers
 
@@ -2124,8 +2124,8 @@ int main(){
 ```
 
 ---
-# $$ \texttt{———— Chapter 6 ————} $$
-$$\texttt{Pointers}$$
+#   \texttt{———— Chapter 6 ————}  
+ \texttt{Pointers} 
 
 ---
 ## 1) Pointers
@@ -2292,7 +2292,7 @@ int main(){
 ```
 
 ---
-## $$ \texttt{———— Chapter 6 - Practice Set ————} $$
+##   \texttt{———— Chapter 6 - Practice Set ————}  
 ---
 ### a) Write a program to print the address of a variable, use this address to get the value of the variable
 
@@ -2482,8 +2482,8 @@ int main(){
 ```
 
 ---
-# $$ \texttt{———— Chapter 7 ————} $$
-$$\texttt{Arrays}$$
+#   \texttt{———— Chapter 7 ————}  
+ \texttt{Arrays} 
 
 ---
 ## 1) Arrays
