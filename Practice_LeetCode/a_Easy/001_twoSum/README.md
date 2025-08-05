@@ -30,10 +30,11 @@ You can return the answer in any order.
   - 4332ms : beats 5.00%
 - Memory
   - 18.54mb : Beats 71.24%
-Needs Optimization
+> Note : Needs Optimization
 
-## Solution 2 ( /10)
-
-
-
-
+## - Solution 2 ( /10)
+- Runtime
+  - _ms : beats _
+- Memory
+  - _mb : beats _
+> Note :
