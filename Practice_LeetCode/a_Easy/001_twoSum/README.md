@@ -22,7 +22,7 @@ You can return the answer in any order.
 - -109 <= target <= 109
 - Only one valid answer exists.
 
----
+
 # Solutions
 
 ## Solution 1 (5.5/10)
