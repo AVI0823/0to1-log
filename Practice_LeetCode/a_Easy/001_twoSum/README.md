@@ -25,9 +25,15 @@ You can return the answer in any order.
 
 # Solutions
 
-## Solution 1 (5.5/10)
+## - Solution 1 (5.5/10)
 - Runtime
   - 4332ms : beats 5.00%
 - Memory
   - 18.54mb : Beats 71.24%
 Needs Optimization
+
+## Solution 2 ( /10)
+
+
+
+
