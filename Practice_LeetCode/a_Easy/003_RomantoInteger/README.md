@@ -33,10 +33,15 @@ Given a roman numeral, convert it to an integer.
   -Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 ### Constraints:
-1 <= s.length <= 15\n
+1 <= s.length <= 15
 s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 # Solutions
 
-## - Solution 1
+## - Solution 1 (7.9/10)
+- Runtime
+  - 0ms : beats 100% (I am so fking proud)
+- Memory
+  - 18.04mb : Beats 20.31%
+> Note : Needs Optimization
