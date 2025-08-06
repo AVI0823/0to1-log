@@ -10,8 +10,6 @@ The course is a comprehensive introduction to C programming, covering topics lik
 
 [![Watch on YouTube](https://img.youtube.com/vi/aZb0iu4uGwA/hqdefault.jpg)](https://youtu.be/aZb0iu4uGwA?si=0MMItb53TyDgOnVM)
 
----
-
 ## Learning Process
 
 For each chapter:
@@ -19,8 +17,6 @@ For each chapter:
 1. Watch the video and take detailed notes on theory and syntax.
 2. Draft quiz questions to test the recall and understanding.
 3. Implement practice problems in C to apply the concepts.
-
----
 
 ## Chapters Covered (so far)
 
