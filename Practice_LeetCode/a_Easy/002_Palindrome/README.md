@@ -18,3 +18,20 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 
 ### Constraints:
 - -231 <= x <= 231 - 1
+
+
+# Solutions
+
+## - Solution 1 (7/10)
+- Runtime
+  - 4ms : beats 80.28%
+- Memory
+  - 17.78mb : Beats 64.19%
+> Note : Needs Optimization
+
+## - Solution 2 ( /10)
+- Runtime
+  - _ms : beats _%
+- Memory
+  - _mb : beats _%
+> Note :
