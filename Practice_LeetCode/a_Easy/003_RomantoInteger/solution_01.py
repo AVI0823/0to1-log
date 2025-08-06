@@ -29,5 +29,5 @@ class Solution:
         return intgr
 
 # sol = Solution()
-# result = sol.twoSum("XIV")
+# result = sol.romanToInt("XIV")
 # print(result)
