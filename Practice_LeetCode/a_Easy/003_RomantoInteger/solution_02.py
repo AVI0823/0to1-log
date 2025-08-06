@@ -27,3 +27,7 @@ class Solution:
                     intgr = intgr - int_lst[i]
             i += 1
         return intgr
+
+# sol = Solution()
+# result = sol.twoSum("XIV")
+# print(result)
