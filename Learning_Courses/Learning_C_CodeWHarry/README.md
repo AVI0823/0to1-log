@@ -9,6 +9,7 @@ The course is a comprehensive introduction to C programming, covering topics lik
 **Watch it here:**
 
 [![Watch on YouTube](https://img.youtube.com/vi/aZb0iu4uGwA/hqdefault.jpg)](https://youtu.be/aZb0iu4uGwA?si=0MMItb53TyDgOnVM)
+Credit: [@CodeWithHarry](https://github.com/CodeWithHarry)
 
 ## Learning Process
 
