@@ -1,0 +1,67 @@
+.price {
+    color: rgb(3, 188, 34);
+    font-weight: bold;
+}
+
+.add-to-cart-button {
+    background-color: rgb(244, 244, 20);
+    border: none;
+    border-radius: 16px;
+    height: 32px;
+    width: 102px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+    background-color: rgb(244, 244, 137);
+    border: 2px solid black;
+    border-color: black;
+    font-size: 14px;
+}
+
+.add-to-cart-button:active {
+    opacity: 0.5;
+}
+
+.buy-now-button {
+    background-color: rgb(228, 178, 13);
+    border: none;
+    border-radius: 16px;
+    height: 32px;
+    width: 102px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.buy-now-button:hover {
+    background-color: rgb(255, 196, 0);
+    border: 2px solid black;
+}
+
+.buy-now-button:active {
+    opacity: 0.5;
+}
+
+.wishlist-button {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid grey;
+    border-radius: 16px;
+    height: 32px;
+    width: 122px;
+    color: rgb(76, 76, 76);
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+    transition: width 0.6s,
+        background-color 1s;
+
+}
+
+.wishlist-button:hover {
+    background-color: rgb(129, 204, 104);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.20);
+    height: 32px;
+    width: 222px;
+    font-size: 14px;
+}

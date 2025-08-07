@@ -1,0 +1,71 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-title {
+    /*font styling*/
+    /* font-family: Arial; */
+    font-size: 20px;
+    font-weight: bold;
+    /* font-style: italic; */
+
+    /*font structure*/
+    /* text-align: center; */
+    width: 350px;
+    line-height: 25px;
+    transition: font-size 1s;
+    /* margin-bottom: 0; */
+}
+
+.video-details {
+    /* font-family: Arial; */
+    font-size: 14px;
+    opacity: 0.7;
+    margin-top: 0;
+    /* margin-bottom: 0; */
+}
+
+.video-owner {
+    /* font-family: Arial; */
+    font-size: 14px;
+    opacity: 0.7;
+    margin-top: 15px;
+    /* margin-bottom: 0; */
+}
+
+.video-discription {
+    /* font-family: Arial; */
+    font-size: 15px;
+    opacity: 0.7;
+    width: 350px;
+    margin-top: 15px;
+}
+
+.bottom-text {
+    margin-top: 100px;
+    font-size: 14px;
+    background-color: rgb(226, 0, 0);
+    padding: 15px 15px;
+    color: white;
+    text-align: center;
+}
+
+.shop-now-edits {
+    border-radius: 10px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    transition: padding 0.25s;
+}
+
+.shop-now-edits:hover {
+    text-decoration: underline;
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.shop-now-edits:active {
+    opacity: 0.8;
+}
