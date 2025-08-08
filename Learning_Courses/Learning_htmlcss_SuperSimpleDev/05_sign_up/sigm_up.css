@@ -1,0 +1,39 @@
+.firstname , .lastname {
+    font-family: Arial;
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 6px 0px;
+    width: 120px;
+    text-indent: 12px;
+
+}
+.email{
+    font-family: Arial;
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 6px 0px;
+    width:246px;
+    text-indent: 12px;
+    display: block;
+    margin-top: 8px;
+}
+.signup{
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    margin-top: 10px;
+    padding: 8px 98px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+.signup:hover{
+    box-shadow: 0px 0px 10px rgba(0,157,255,0.5);
+}
+.signup:active{
+    opacity: 0.7;
+}
