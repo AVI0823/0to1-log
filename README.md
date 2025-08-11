@@ -8,6 +8,7 @@ It includes structured practice, projects, notes, and problem-solving in various
 - `Language_C/` — Practice and projects using the C programming language.
 - `Language_Python/` — Practice and projects using Python.
 - `Learning_Courses/` — Notes and code from courses and tutorials I follow.
+- `Learning_WebDev/` — Practice and Projects on web development.
 - `Practice_HackerRank/` — My problem-solving practice on HackerRank.
 - `Practice_LeetCode/` — My problem-solving practice on LeetCode.
 
