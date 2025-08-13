@@ -27,5 +27,3 @@ The background image is inspired by a night desert theme. (the image is not mine
 - How to use `backdrop-filter` for a glass effect
 - CSS keyframe animations for shadows
 - How to structure a simple HTML form with `grid` layout
-> This project is a step forward in my learning journey — not perfect, but I’m proud it exists.
-
