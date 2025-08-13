@@ -22,8 +22,3 @@ The background image is inspired by a night desert theme. (the image is not mine
 - Background image is fixed size (not using `background-size: cover` for all cases yet)
 - No JavaScript – features like "show password" are not implemented
 - The form does not submit data (purely front-end)
-
-## What I Learned
-- How to use `backdrop-filter` for a glass effect
-- CSS keyframe animations for shadows
-- How to structure a simple HTML form with `grid` layout
