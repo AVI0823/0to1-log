@@ -1,0 +1,160 @@
+*{
+    color: rgba(255, 255, 255, 0.7);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-image: url(Dunes.jpg);
+    background-position: top center;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-size: 100% 100%; */
+    height: 460px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 16px;
+    width: 380px;
+    margin: 160px auto;
+    padding: 50px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-style:groove ;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    
+    backdrop-filter: blur(8px);
+
+    transition: all 0.5s;
+}
+.container:hover {
+  animation: shadowPulse 12s ease-in-out infinite;
+}
+
+.container h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    cursor: default;
+}
+
+.textbody{
+    display: inline-flex;
+    justify-content: space-between;
+    cursor: default;
+}
+
+.firstname{
+    width: 160px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 4px;
+    text-indent: 4px;
+}
+.firstname:hover{
+    box-shadow: 0px 2px 1px rgba(255,255,255,0.2);
+}
+.firstname:focus{
+    outline: none;
+    color: white;
+    animation: textshadowPulse 5s ease-in-out infinite;
+}
+.lastname{
+    width: 160px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 4px;
+    text-indent: 4px;
+}
+.lastname:hover{
+    box-shadow: 0px 2px 1px rgba(255,255,255,0.2);
+}
+.lastname:focus{
+    outline: none;
+    color: white;
+    animation: textshadowPulse 5s ease-in-out infinite;
+}
+
+.mail input{
+    width: 250px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 4px;
+    text-indent: 4px;
+}
+.mail input:hover{
+    box-shadow: 0px 2px 1px rgba(255,255,255,0.2);
+}
+.mail input:focus{
+    outline: none;
+    color: white;
+    animation: textshadowPulse 5s ease-in-out infinite;
+}
+
+.remember{
+    margin: 0;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.container button{
+    /* margin-left: 30.75%; */
+    margin-left: 38%;
+    margin-top: 20px;
+    padding: 8px 8px;
+    background-color: inherit;
+    width: 100px;
+    border: none;
+    border:1px solid lightgray;
+    border-radius: 12px;
+    cursor:pointer;
+    
+    transition: all 0.4s;
+}
+.container button:hover{
+    background: linear-gradient(270deg, #0a1a2a, #112a45, #0a1a2a);
+    background-size: 400% 400%;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.7);
+    animation: shadowPulse 5s ease-in-out infinite;
+}
+@keyframes shadowPulse {
+    0%{
+        box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+    25% {
+        box-shadow: 0 0 10px rgba(255,255,255,0.8);
+    }
+    50% {
+        box-shadow: 0 0 10px rgba(50, 100, 150, 0.8);
+    }
+    75% {
+        box-shadow: 0 0 10px rgba(255,255,255,0.8);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+}
+@keyframes textshadowPulse {
+    0%{
+        box-shadow: 0px 2px 1px rgba(255,255,255,0.2);
+    }
+    25% {
+        box-shadow: 0px 2px 1px rgba(255,255,255,0.4);
+    }
+    50% {
+        box-shadow: 0px 2px 1px rgba(50, 100, 150, 0.4);
+    }
+    75% {
+        box-shadow: 0px 2px 1px rgba(255,255,255,0.4);
+    }
+    100% {
+        box-shadow: 0px 2px 1px rgba(255,255,255,0.2);
+    }
+}
