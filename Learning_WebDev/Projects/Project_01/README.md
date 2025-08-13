@@ -5,7 +5,7 @@ It’s a sign-up form with a glassmorphic container, smooth hover animations, an
 The background image is inspired by a night desert theme. (the image is not mine, but open-sourced)
 
 ## Preview
-![Sign-Up Form Screenshot](preview_project_01.png)
+![Sign-Up Form Screenshot](preview_project_01.jpeg)
 
 ## Built With
 - **HTML5**
