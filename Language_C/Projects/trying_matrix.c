@@ -1,4 +1,4 @@
-// i will keep editing this code as i learn along (sorry if there are any spelling mistakes)
+// i will keep updating this code as i learn more (sorry if there are any spelling mistakes)
 
 #include <stdio.h>
 
@@ -110,11 +110,14 @@ int main(){
             print_matrix(row_2,col_2,matrix_2);
 
 
+    int times = 1;
+    while(times == 1){
     // asking the user to ask for what he wants (just to make the shit flow user friendly)
         printf("\n\nWhat operatrions would you like to perform on your two martixes : \n");
         printf("Enter 1 to ADD \nEnter 2 to SUBSTRACT \n");
         printf("ENTER 3 to Multiply (Matrix 1 * Matrix 2)\n");
         printf("ENTER 4 to Multiply (Matrix 2 * Matrix 1)\n");
+        printf("Enter 5 to exit\n");
         int op;
         printf("Enter : ");scanf("%d",&op);
 
@@ -147,9 +150,13 @@ int main(){
                 printf("\n\nMultipliying : Matrix 3 = Matrix 2 * Matrix 1\n");
 
             }
+            else if(op == 5){
+                times = 0;
+            }
             else{
                 printf("Invalid input : %d \nTry Again...");
             }
+    }
 
 
     printf("\n");
