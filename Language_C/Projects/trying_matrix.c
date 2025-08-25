@@ -52,7 +52,7 @@ void add_matrix(int rows, int cols, int matrix_m1[rows][cols], int matrix_m2[row
         for(int i = 0 ; i<rows ; i++){
             printf("| "); // just for my ADHD 
             for(int j = 0 ; j<cols ; j++){
-                printf("%d ",matrix_m1[i][j] - matrix_m2[i][j]);
+                printf("%d ",matrix_m1[i][j] + matrix_m2[i][j]);
             };
             printf("|"); // just for my ADHD
             printf("\n");
