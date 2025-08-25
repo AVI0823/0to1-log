@@ -72,6 +72,9 @@ void subs_matrix(int rows, int cols, int matrix_m1[rows][cols], int matrix_m2[ro
         };
 };
 
+
+
+
 int main(){
     printf("\n");
 
@@ -144,10 +147,25 @@ int main(){
             }
             else if(op == 3){
                 printf("\n\nMultipliying : Matrix 3 = Matrix 1 * Matrix 2\n");
+
+                    if(col_1==row_2){
+
+                    }
+                    else{
+                        printf("\nThe Matrix 1 and Matrix 2 can't be multiplied...\nThe number of columns of matrix 1 must be equal to number of rows on matrix 2\n");
+                    }
                 
             }
             else if(op == 4){
                 printf("\n\nMultipliying : Matrix 3 = Matrix 2 * Matrix 1\n");
+
+                     if(col_2==row_1){
+
+                    }
+                    else{
+                        printf("\nThe Matrix 2 and Matrix 1 can't be multiplied...\nThe number of columns of matrix 2 must be equal to number of rows on matrix 1\n");
+                    }
+               
 
             }
             else if(op == 5){
